@@ -1,0 +1,8 @@
+server:
+  servlet:
+    context-path: /myapp
+
+otel:
+  exporter:
+    otlp:
+      endpoint: http://localhost:5318
